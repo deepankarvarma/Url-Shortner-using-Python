@@ -28,7 +28,7 @@ if st.button("Shorten URL "):
         try:
             s = pyshorteners.Shortener()
             short_url = s.tinyurl.short(url)
-            st.success(short_url)
+            st.success(f'Shortened URL: {short_url}')
         except pyshorteners.exceptions.BadURLException:
             st.error("Invalid URL. Please enter a valid URL.")
         except pyshorteners.exceptions.ShorteningErrorException:
