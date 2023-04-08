@@ -4,7 +4,20 @@ import pyshorteners
 
 # Create a streamlit app and add a text input for user
 st.title("URL Shortener")
-
+st.markdown(
+         f"""
+         <style>
+         .stApp {{
+             background-image: url("https://www.pexels.com/photo/1103970/download/");
+             background-attachment: fixed;
+             background-color: transparent;
+             background-size: cover;
+         }}
+         </style>
+         """,
+         unsafe_allow_html=True
+     )
+     
 url = st.text_input("Enter URL:")
 
 # Add a button to submit the url and shorten it
