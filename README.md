@@ -13,7 +13,7 @@ After running the app, you should see a user interface with a text input and a b
 <br>
 If the input URL is invalid or there is an error while shortening the URL, the app will display an error message.
 ### Deployment
-You can easily deploy this app on a web server or a cloud platform like Heroku or Streamlit Sharing. See the Streamlit documentation for more information on deployment. <br>
+You can easily deploy this app on a web server or a cloud platform like Heroku or Streamlit Sharing. See the Streamlit documentation for more information on deployment. <br><br>
 Streamlit Link : https://deepankarvarma-url-shortner-using-python-app-87bfzi.streamlit.app/
 ### Acknowledgements
 This app uses the following open-source libraries:<br>
